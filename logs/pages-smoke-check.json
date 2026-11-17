@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-11-17T17:00:39.567Z",
+  "result": "published_and_basic_routes_verified",
+  "site": "https://zgx75.github.io/rag-wiki/",
+  "publishedHtmlCommit": "de9447e5ff4746b711242101b3a6900b9d93baf2",
+  "method": "在使用者 Microsoft Edge 中開啟正式 GitHub Pages 網址，讀取頁面可及性文字；另檢視簡報第 1 頁畫面。",
+  "checks": [
+    {
+      "url": "https://zgx75.github.io/rag-wiki/#slides/1",
+      "result": "pass",
+      "observed": "顯示 P01、RAG 入門標題、來源 S01 與下一頁控制項；畫面可見標題與教學介紹。"
+    },
+    {
+      "url": "https://zgx75.github.io/rag-wiki/#wiki",
+      "result": "pass",
+      "observed": "顯示 W01 至 W08 概念頁與搜尋入口。"
+    },
+    {
+      "url": "https://zgx75.github.io/rag-wiki/#flow",
+      "result": "pass",
+      "observed": "顯示流程圖、重複步驟與回退規則。"
+    },
+    {
+      "url": "https://zgx75.github.io/rag-wiki/#report",
+      "result": "pass",
+      "observed": "顯示主題討論、執行成果、證據卡、來源對照與反思。"
+    }
+  ],
+  "scope": "正式網址與主要路由的基本檢查，並非所有頁面與互動的完整測試。",
+  "notTested": [
+    "全部 15 頁逐頁視覺審查",
+    "瀏覽器內搜尋輸入與測驗按鈕",
+    "全螢幕與列印預覽",
+    "手機實機"
+  ],
+  "relationshipToEarlierRecord": "logs/browser-check.json 記錄初次離線製作時未能完成的瀏覽器檢查。本檔補充 GitHub Pages 發布後的基本驗證，保留初次失敗紀錄。"
+}
