@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-17T16:25:26.206Z",
+  "passed": 13,
+  "total": 13,
+  "results": [
+    {
+      "name": "至少五篇獨立來源",
+      "status": "pass",
+      "detail": "6 篇"
+    },
+    {
+      "name": "來源欄位與本地筆記",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Wiki 概念互連與來源",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "六篇均進入概念頁",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "每張投影片具 Wiki 與證據卡",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "所有正式主張附語意審查理由",
+      "status": "pass",
+      "detail": "欄位存在檢查；不是自動語意證明"
+    },
+    {
+      "name": "受控測試判斷紀錄",
+      "status": "pass",
+      "detail": "AI 已審查的 4 例，重播 2 退回、2 通過"
+    },
+    {
+      "name": "無外部 JavaScript CSS 依賴",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "單檔嵌入資料",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "瀏覽器 JavaScript 語法",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "繁體中文與可及性基礎",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "負向測試：不存在的證據卡應拒絕",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "負向測試：未查詢支持頁應拒絕",
+      "status": "pass",
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "started": "2026-11-17T16:25:26.054Z",
+  "completed": "2026-11-17T16:25:26.071Z",
+  "sourceCount": 6,
+  "wikiCount": 8,
+  "slideCount": 15,
+  "claimCount": 6,
+  "boundaryCount": 4,
+  "rejected": 2,
+  "events": [
+    {
+      "at": "2026-11-17T16:25:26.054Z",
+      "node": "plan",
+      "status": "pass",
+      "detail": "依作業需求完成範圍與教學目標規劃；見 planning.md。"
+    },
+    {
+      "at": "2026-11-17T16:25:26.059Z",
+      "node": "ingest",
+      "status": "pass",
+      "detail": {
+        "id": "S01",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "scope": "abstract_and_bibliography",
+        "sha256": "3ab49af3312f5862ba3bf85f95d86667569697de6365115ea74896f4c3b31042"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.059Z",
+      "node": "ingest",
+      "status": "pass",
+      "detail": {
+        "id": "S02",
+        "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+        "scope": "abstract_and_bibliography",
+        "sha256": "57b5b5ce3eed06fcdae2ef224a90d7a2f0b90eb5deabbe6c2895aa7d6f34f8d7"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.060Z",
+      "node": "ingest",
+      "status": "pass",
+      "detail": {
+        "id": "S03",
+        "title": "Enabling Large Language Models to Generate Text with Citations",
+        "scope": "abstract_and_bibliography",
+        "sha256": "ece9c00486def1e6c2d78ab1fe12057cd62fa2da87ae606e4f05cf743dd5c995"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.062Z",
+      "node": "ingest",
+      "status": "pass",
+      "detail": {
+        "id": "S04",
+        "title": "Lost in the Middle: How Language Models Use Long Contexts",
+        "scope": "abstract_and_bibliography",
+        "sha256": "080976bf1a3366bbae270e6005ecd646d0b3f745d805f1256e73f9fa362f9761"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.063Z",
+      "node": "ingest",
+      "status": "pass",
+      "detail": {
+        "id": "S05",
+        "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+        "scope": "abstract_and_bibliography",
+        "sha256": "a3e65556a609288e86af00559ddb0b6cc9e3b97a6a19047ad904999b3bb0359a"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.063Z",
+      "node": "ingest",
+      "status": "pass",
+      "detail": {
+        "id": "S06",
+        "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+        "scope": "abstract_and_bibliography",
+        "sha256": "95388575c6ea4a1e6a40708f58c27848dbb5111781aed03998d0cb4915897104"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.064Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W01",
+        "sources": [
+          "S01"
+        ],
+        "links": [
+          "W02",
+          "W03",
+          "W04"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.065Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W02",
+        "sources": [],
+        "links": [
+          "W01",
+          "W05",
+          "W08"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.066Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W03",
+        "sources": [
+          "S02"
+        ],
+        "links": [
+          "W01",
+          "W06",
+          "W07"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.067Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W04",
+        "sources": [
+          "S01",
+          "S03"
+        ],
+        "links": [
+          "W03",
+          "W05",
+          "W07"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.067Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W05",
+        "sources": [
+          "S03"
+        ],
+        "links": [
+          "W04",
+          "W07",
+          "W08"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.068Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W06",
+        "sources": [
+          "S04"
+        ],
+        "links": [
+          "W03",
+          "W05",
+          "W07"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W07",
+        "sources": [
+          "S03",
+          "S05"
+        ],
+        "links": [
+          "W03",
+          "W05",
+          "W08"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "wiki_synthesis",
+      "status": "pass",
+      "detail": {
+        "id": "W08",
+        "sources": [
+          "S06"
+        ],
+        "links": [
+          "W02",
+          "W05",
+          "W07"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "claim_gate",
+      "status": "pass",
+      "detail": {
+        "claim": "C01",
+        "wiki": "W01",
+        "sources": [
+          "S01"
+        ],
+        "mode": "AI_review_annotation_replayed",
+        "reason": "S01 摘要說明參數式與非參數式記憶的結合。"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "claim_gate",
+      "status": "pass",
+      "detail": {
+        "claim": "C02",
+        "wiki": "W03",
+        "sources": [
+          "S02"
+        ],
+        "mode": "AI_review_annotation_replayed",
+        "reason": "S02 摘要明示雙編碼器與 dense representations。"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "claim_gate",
+      "status": "pass",
+      "detail": {
+        "claim": "C03",
+        "wiki": "W05",
+        "sources": [
+          "S03"
+        ],
+        "mode": "AI_review_annotation_replayed",
+        "reason": "S03 摘要將 correctness 與 citation quality 列為不同評估面向。"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "claim_gate",
+      "status": "pass",
+      "detail": {
+        "claim": "C04",
+        "wiki": "W06",
+        "sources": [
+          "S04"
+        ],
+        "mode": "AI_review_annotation_replayed",
+        "reason": "S04 摘要說明位置變動及兩個受測任務，保留研究範圍。"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "claim_gate",
+      "status": "pass",
+      "detail": {
+        "claim": "C05",
+        "wiki": "W07",
+        "sources": [
+          "S05"
+        ],
+        "mode": "AI_review_annotation_replayed",
+        "reason": "S05 摘要列出這三類評估考量。"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "claim_gate",
+      "status": "pass",
+      "detail": {
+        "claim": "C06",
+        "wiki": "W08",
+        "sources": [
+          "S06"
+        ],
+        "mode": "AI_review_annotation_replayed",
+        "reason": "S06 摘要說明訓練與 reflection tokens；本作業未實作其模型。"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "controlled_boundary_test",
+      "status": "reject",
+      "detail": {
+        "id": "T01",
+        "stage": "主張整理",
+        "candidate": "只要加上引用，回答就一定正確。",
+        "source": "S03",
+        "verdict": "reject",
+        "reason": "ALCE 分別評估正確性及引用品質；摘要不支持正確性保證。",
+        "repair": "改為 C03，區分引用與正確性。",
+        "mode": "AI 在本次會話已審查；腳本重播判斷，不是自動語意模型"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "revision_route",
+      "status": "pass",
+      "detail": {
+        "test": "T01",
+        "route": "主張整理 → 查 Wiki 與來源範圍 → 縮小主張 → 證據閘門",
+        "repair": "改為 C03，區分引用與正確性。",
+        "max_revisions": 2
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "controlled_boundary_test",
+      "status": "reject",
+      "detail": {
+        "id": "T02",
+        "stage": "主張整理",
+        "candidate": "所有 LLM 都無法使用長上下文中段的資訊。",
+        "source": "S04",
+        "verdict": "reject",
+        "reason": "把特定模型與任務的觀察，擴張成所有模型皆無法使用，超出摘要支持範圍。",
+        "repair": "改為 C04，保留受測設定與位置影響。",
+        "mode": "AI 在本次會話已審查；腳本重播判斷，不是自動語意模型"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "revision_route",
+      "status": "pass",
+      "detail": {
+        "test": "T02",
+        "route": "主張整理 → 查 Wiki 與來源範圍 → 縮小主張 → 證據閘門",
+        "repair": "改為 C04，保留受測設定與位置影響。",
+        "max_revisions": 2
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "controlled_boundary_test",
+      "status": "pass",
+      "detail": {
+        "id": "T03",
+        "stage": "主張整理",
+        "candidate": "DPR 使用問題與段落的稠密表示來檢索段落。",
+        "source": "S02",
+        "verdict": "pass",
+        "reason": "S02 摘要明示雙編碼器與 dense representations。",
+        "repair": "保留 C02。",
+        "mode": "AI 在本次會話已審查；腳本重播判斷，不是自動語意模型"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.069Z",
+      "node": "controlled_boundary_test",
+      "status": "pass",
+      "detail": {
+        "id": "T04",
+        "stage": "主張整理",
+        "candidate": "Self-RAG 使用訓練過的反思 token 進行按需檢索與反思。",
+        "source": "S06",
+        "verdict": "pass",
+        "reason": "S06 摘要說明訓練與 reflection tokens；本作業未實作其模型。",
+        "repair": "保留 C06；註明未實作 Self-RAG。",
+        "mode": "AI 在本次會話已審查；腳本重播判斷，不是自動語意模型"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P01",
+        "queried_pages": [
+          "W01"
+        ],
+        "evidence_cards": [
+          "C01"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P02",
+        "queried_pages": [
+          "W01",
+          "W07"
+        ],
+        "evidence_cards": [
+          "C01",
+          "C05"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P03",
+        "queried_pages": [
+          "W01",
+          "W03",
+          "W04"
+        ],
+        "evidence_cards": [
+          "C01",
+          "C02"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P04",
+        "queried_pages": [
+          "W01",
+          "W02"
+        ],
+        "evidence_cards": [
+          "C01"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P05",
+        "queried_pages": [
+          "W02",
+          "W05"
+        ],
+        "evidence_cards": [
+          "C03"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P06",
+        "queried_pages": [
+          "W03",
+          "W06"
+        ],
+        "evidence_cards": [
+          "C02",
+          "C04"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P07",
+        "queried_pages": [
+          "W04",
+          "W05"
+        ],
+        "evidence_cards": [
+          "C03"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P08",
+        "queried_pages": [
+          "W05",
+          "W06"
+        ],
+        "evidence_cards": [
+          "C03",
+          "C04"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P09",
+        "queried_pages": [
+          "W06"
+        ],
+        "evidence_cards": [
+          "C04"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P10",
+        "queried_pages": [
+          "W07",
+          "W05"
+        ],
+        "evidence_cards": [
+          "C05",
+          "C03"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P11",
+        "queried_pages": [
+          "W05",
+          "W06",
+          "W07"
+        ],
+        "evidence_cards": [
+          "C03",
+          "C04",
+          "C05"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P12",
+        "queried_pages": [
+          "W02",
+          "W08"
+        ],
+        "evidence_cards": [
+          "C06"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P13",
+        "queried_pages": [
+          "W02",
+          "W05",
+          "W07"
+        ],
+        "evidence_cards": [
+          "C03",
+          "C05"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P14",
+        "queried_pages": [
+          "W05",
+          "W06",
+          "W08"
+        ],
+        "evidence_cards": [
+          "C03",
+          "C04",
+          "C06"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.070Z",
+      "node": "wiki_query",
+      "status": "pass",
+      "detail": {
+        "slide": "P15",
+        "queried_pages": [
+          "W01",
+          "W05",
+          "W07"
+        ],
+        "evidence_cards": [
+          "C01",
+          "C03",
+          "C05"
+        ],
+        "method": "依教學大綱指定概念頁，不把關鍵詞搜尋冒稱向量檢索"
+      }
+    },
+    {
+      "at": "2026-11-17T16:25:26.071Z",
+      "node": "html_generate",
+      "status": "pass",
+      "detail": "生成單檔 HTML；包含 Wiki、十五頁簡報、流程圖、反思與來源對照。"
+    }
+  ]
+}

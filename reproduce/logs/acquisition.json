@@ -1,0 +1,52 @@
+{
+  "recordedAt": "2026-11-17T16:16:47.619Z",
+  "scope": "本次會話實際瀏覽第一手來源的摘要與書目，非全文",
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "locator": "arXiv Abstract，關於 parametric / non-parametric memory 的句子",
+      "status": "read_and_summarized"
+    },
+    {
+      "id": "S02",
+      "url": "https://aclanthology.org/2020.emnlp-main.550/",
+      "locator": "ACL Abstract，第一段的 dual-encoder framework",
+      "status": "read_and_summarized"
+    },
+    {
+      "id": "S03",
+      "url": "https://aclanthology.org/2023.emnlp-main.398/",
+      "locator": "ACL Abstract，第二段的 fluency, correctness, citation quality",
+      "status": "read_and_summarized"
+    },
+    {
+      "id": "S04",
+      "url": "https://aclanthology.org/2024.tacl-1.9/",
+      "locator": "ACL Abstract，第一及第二段的任務與位置效應",
+      "status": "read_and_summarized"
+    },
+    {
+      "id": "S05",
+      "url": "https://aclanthology.org/2024.eacl-demo.16/",
+      "locator": "ACL Abstract，第一至第三段的評估面向",
+      "status": "read_and_summarized"
+    },
+    {
+      "id": "S06",
+      "url": "https://arxiv.org/abs/2310.11511",
+      "locator": "arXiv Abstract，第三段的 reflection tokens",
+      "status": "read_and_summarized"
+    }
+  ],
+  "observedFailures": [
+    {
+      "node": "取得資料",
+      "source": "S06",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+      "observed": "Timeout fetching（瀏覽來源回傳）",
+      "action": "改用 https://arxiv.org/abs/2310.11511 並核對標題與作者",
+      "result": "resolved"
+    }
+  ]
+}

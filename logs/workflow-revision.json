@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-17T16:21:18.940Z",
+  "before": "來源使用單一網址；證據卡與輸出已有檢查閘門。",
+  "observed": "S06 會議頁 Timeout fetching",
+  "after": "取得階段先確認可讀性，失敗回取得資料並核對同篇論文第一手備援版本，通過後才 ingest。",
+  "changedNode": "取得資料與來源前置檢查",
+  "unchangedGate": "證據支持與範圍檢查維持在 HTML 生成前",
+  "automatedRetry": false
+}

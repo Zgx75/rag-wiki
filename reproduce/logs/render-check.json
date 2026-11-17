@@ -1,0 +1,148 @@
+{
+  "at": "2026-11-17T16:25:26.358Z",
+  "type": "Node VM 字串渲染與互動邏輯，非瀏覽器視覺檢查",
+  "passed": 35,
+  "total": 35,
+  "checks": [
+    {
+      "name": "首頁字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P01 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P02 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P03 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P04 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P05 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P06 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P07 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P08 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P09 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P10 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P11 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P12 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P13 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P14 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "投影片 P15 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W01 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W02 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W03 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W04 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W05 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W06 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W07 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "Wiki W08 字串渲染",
+      "status": "pass"
+    },
+    {
+      "name": "wiki 頁面渲染",
+      "status": "pass"
+    },
+    {
+      "name": "flow 頁面渲染",
+      "status": "pass"
+    },
+    {
+      "name": "report 頁面渲染",
+      "status": "pass"
+    },
+    {
+      "name": "sources 頁面渲染",
+      "status": "pass"
+    },
+    {
+      "name": "關鍵詞搜尋可取得結果",
+      "status": "pass"
+    },
+    {
+      "name": "無結果不生成內容",
+      "status": "pass"
+    },
+    {
+      "name": "測驗答對回饋",
+      "status": "pass"
+    },
+    {
+      "name": "測驗答錯回饋",
+      "status": "pass"
+    },
+    {
+      "name": "方向鍵路由邏輯",
+      "status": "pass"
+    },
+    {
+      "name": "輸入欄不攔截方向鍵",
+      "status": "pass"
+    },
+    {
+      "name": "使用者文字 HTML escaping",
+      "status": "pass"
+    }
+  ]
+}

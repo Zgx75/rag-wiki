@@ -1,0 +1,97 @@
+{
+  "method": "本次 AI 逐卡審查摘要與書目；未執行外部語意判定模型",
+  "claims": [
+    {
+      "id": "C01",
+      "wiki": "W01",
+      "sources": [
+        "S01"
+      ],
+      "text": "RAG 結合語言模型與外部知識檢索。",
+      "support": "S01 摘要說明參數式與非參數式記憶的結合。"
+    },
+    {
+      "id": "C02",
+      "wiki": "W03",
+      "sources": [
+        "S02"
+      ],
+      "text": "DPR 使用問題與段落的稠密表示來檢索段落。",
+      "support": "S02 摘要明示雙編碼器與 dense representations。"
+    },
+    {
+      "id": "C03",
+      "wiki": "W05",
+      "sources": [
+        "S03"
+      ],
+      "text": "引用的品質與回答的正確性需要分別檢查。",
+      "support": "S03 摘要將 correctness 與 citation quality 列為不同評估面向。"
+    },
+    {
+      "id": "C04",
+      "wiki": "W06",
+      "sources": [
+        "S04"
+      ],
+      "text": "在該研究的受測設定中，相關資訊的位置影響模型表現。",
+      "support": "S04 摘要說明位置變動及兩個受測任務，保留研究範圍。"
+    },
+    {
+      "id": "C05",
+      "wiki": "W07",
+      "sources": [
+        "S05"
+      ],
+      "text": "RAG 評估要兼顧檢索、忠實使用情境與生成品質。",
+      "support": "S05 摘要列出這三類評估考量。"
+    },
+    {
+      "id": "C06",
+      "wiki": "W08",
+      "sources": [
+        "S06"
+      ],
+      "text": "Self-RAG 使用訓練過的反思 token 進行按需檢索與反思。",
+      "support": "S06 摘要說明訓練與 reflection tokens；本作業未實作其模型。"
+    }
+  ],
+  "auditCases": [
+    {
+      "id": "T01",
+      "stage": "主張整理",
+      "candidate": "只要加上引用，回答就一定正確。",
+      "source": "S03",
+      "verdict": "reject",
+      "reason": "ALCE 分別評估正確性及引用品質；摘要不支持正確性保證。",
+      "repair": "改為 C03，區分引用與正確性。"
+    },
+    {
+      "id": "T02",
+      "stage": "主張整理",
+      "candidate": "所有 LLM 都無法使用長上下文中段的資訊。",
+      "source": "S04",
+      "verdict": "reject",
+      "reason": "把特定模型與任務的觀察，擴張成所有模型皆無法使用，超出摘要支持範圍。",
+      "repair": "改為 C04，保留受測設定與位置影響。"
+    },
+    {
+      "id": "T03",
+      "stage": "主張整理",
+      "candidate": "DPR 使用問題與段落的稠密表示來檢索段落。",
+      "source": "S02",
+      "verdict": "pass",
+      "reason": "S02 摘要明示雙編碼器與 dense representations。",
+      "repair": "保留 C02。"
+    },
+    {
+      "id": "T04",
+      "stage": "主張整理",
+      "candidate": "Self-RAG 使用訓練過的反思 token 進行按需檢索與反思。",
+      "source": "S06",
+      "verdict": "pass",
+      "reason": "S06 摘要說明訓練與 reflection tokens；本作業未實作其模型。",
+      "repair": "保留 C06；註明未實作 Self-RAG。"
+    }
+  ]
+}
